@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: login-container
-        image: nginx:latest
+        image: aj7tony/login:1.1
         ports:
         - containerPort: 80
