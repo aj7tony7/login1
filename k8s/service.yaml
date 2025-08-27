@@ -6,7 +6,7 @@ spec:
   selector:
     app: login
   ports:
-    - port:80
-      targetPort:80
-      nodePort:30007
-  type: NodePort
+    - port: 80
+      targetPort: 80
+      nodePort: 30007
+  type: NodePort # Exposes the service on each Node's IP at a static port (the NodePort).
